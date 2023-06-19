@@ -9,11 +9,6 @@
 </head>
 <body>
         <div class="container mt-5">
-            @php
-               // $errors = []    
-
-                
-            @endphp
             @if (Session::get('success'))
                 <div class="alert alert-success">{{session('success')}}</div>
             @endif
@@ -26,9 +21,6 @@
                     @endforeach
                 </ul>
             </div>
-            @endif --}}
-            {{-- @if (Session::get('success'))
-                <div class="alert alert-success">{{session('success')}}</div>
             @endif --}}
         
             <h5 class="text-center">Formulaire d'envoi</h5>

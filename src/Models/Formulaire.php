@@ -1,11 +1,4 @@
 <?php
-/* namespace Alsace7004\Formulaire\Models;
-class Formulaire{
-    //protected $fillable = ['nom','prenom','telephone','email','adresse'];
-    public $nom,$prenom,$telephone,$email,$adresse;
-} */
-?>
-<?php
 
 namespace Alsace7004\Formulaire\Models;
 

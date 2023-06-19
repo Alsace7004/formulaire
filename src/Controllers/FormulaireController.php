@@ -38,14 +38,8 @@ class FormulaireController extends Controller{
             'adresse.min'          =>'Trop court...',
         ]); 
         if($validator->fails()){
-            //->withInput()->withErrors($validator);
-            //return $validator->fails();
-            //return redirect()->route('contact.index')->with('success','Erreur Erreur Erreur');
-            //return Redirect::back()->withErrors($validator);
-           
                return redirect()->back()->withInput()->withErrors($validator);
         }
-        //dd($request->all());
         Formulaire::create($data);
 
         return redirect()->route('contact.index')->with('success','Nouvelle adresse ajouté avec success');
