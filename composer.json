@@ -1,0 +1,15 @@
+{
+    "name": "alsace7004/formulaire",
+    "description": "Un package qui affichere un formulaire de contact quand va sur l'url /contact",
+    "autoload": {
+        "psr-4": {
+            "Alsace7004\\Formulaire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alsace7004"
+        }
+    ],
+    "require": {}
+}
